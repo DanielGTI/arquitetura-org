@@ -14,7 +14,7 @@ A **HealthTech Nexus S.A.** é provedora da principal plataforma SaaS *multi-ten
 
 * **Base de Clientes:** 85 grandes redes hospitalares privadas (423 hospitais físicos e 185 clínicas especializadas).
 * **Escala Operacional:** 6 milhões de prontuários ativos de pacientes e mais de 68.000 profissionais de saúde ativos por dia (DAU).
-* **Desempenho Financeiro:** ARR de $\text{R\$ } 184,5 \text{ milhões}$ com margem EBITDA de $27,0\%$ e NRR de $124,5\%$.
+* **Desempenho Financeiro:** ARR de R$ 184,5 milhões com margem EBITDA de 27,0% e NRR de 124,5%.
 * **Infraestrutura:** Cloud Native AWS (Region `us-east-1`), orquestrada em Kubernetes EKS v1.28 com AWS Aurora PostgreSQL 14.9, Redis Enterprise e Apache Kafka (MSK).
 
 ---
@@ -58,7 +58,7 @@ Na noite de **24 de Outubro de 2026 (Sexta-feira)**, foi implantada a versão **
              ┌──────────────────────────┼──────────────────────────┐
              ▼                          ▼                          ▼
 ┌──────────────────────────┐┌──────────────────────────┐┌──────────────────────────┐
-│   KAFKA (AWS MSK v3.5)   ││   REDIS CLUSTER v7.0     ││ AURORA POSTGRESQL 14.9  │
+│   KAFKA (AWS MSK v3.5)   ││   REDIS CLUSTER v7.0     ││ AURORA POSTGRESQL 14.9   │
 │    (Mensageria Async)    ││   (Cache em Memória)     ││ (PgBouncer Pooler 500)   │
 └──────────────────────────┘└──────────────────────────┘└──────────────────────────┘
 ```
